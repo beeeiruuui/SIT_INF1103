@@ -1,0 +1,29 @@
+commit 1e562e70c1d4941deb742e7ad7de2e02732223c5
+Author: OhBeiRui <2605671@sit.singaporetech.edu.sg>
+Date:   Thu Sep 10 20:57:27 2026 +0800
+
+    Activity 5: Something fun to think about
+
+commit aa1461e802b5228daabe89f91ab4b604a09e983e
+Author: OhBeiRui <2605671@sit.singaporetech.edu.sg>
+Date:   Thu Sep 10 20:51:53 2026 +0800
+
+    Activity 4: Interactive profile creator
+
+commit b4745ea184ac17e981363a8c23edb89c86c3f217
+Author: OhBeiRui <2605671@sit.singaporetech.edu.sg>
+Date:   Thu Sep 10 20:42:54 2026 +0800
+
+    Activity 3
+
+commit d9613050c6ab39820172cd9f9e5a2ceff62c729e
+Author: OhBeiRui <2605671@sit.singaporetech.edu.sg>
+Date:   Thu Sep 10 20:40:36 2026 +0800
+
+    Activity 2
+
+commit 1e235345eef515b12a9b088fdf53f0147a9cc1b5
+Author: OhBeiRui <2605671@sit.singaporetech.edu.sg>
+Date:   Thu Sep 10 20:31:32 2026 +0800
+
+    First Post
