@@ -1,0 +1,189 @@
+INF1103 Lab 1 - Git Commits (Activities 1 to 5)
+
+============================================================
+COMMIT 1
+Activity 1 - First Python Program
+============================================================
+
+hello.py:
+
+# Activity 1
+print("================================")
+print("Welcome here")
+print("My first post!")
+print("================================")
+
+
+============================================================
+COMMIT 2
+Activity 2 - Update Profile
+============================================================
+
+hello.py:
+
+# Activity 1
+print("================================")
+print("Welcome here")
+print("My first post!")
+print("================================")
+
+# Activity 2
+username = "cool_creator"
+bio = "Fun Blogger"
+followers = 100
+
+print("Username:", username)
+print("Bio:", bio)
+print("Followers:", followers)
+
+
+============================================================
+COMMIT 3
+Activity 3 - Follower Growth Tracker
+============================================================
+
+hello.py:
+
+# Activity 1
+print("================================")
+print("Welcome here")
+print("My first post!")
+print("================================")
+
+# Activity 2
+username = "cool_creator"
+bio = "Fun Blogger"
+followers = 100
+
+print("Username:", username)
+print("Bio:", bio)
+print("Followers:", followers)
+
+# Activity 3
+followers = 100
+followers += 50
+print("Day 1:", followers)
+followers += 20
+print("Day 2:", followers)
+followers -= 10
+print("Day 3:", followers)
+
+
+============================================================
+COMMIT 4
+Activity 4 - Interactive Profile Creator
+============================================================
+
+hello.py:
+
+# Activity 1
+print("================================")
+print("Welcome here")
+print("My first post!")
+print("================================")
+
+# Activity 2
+username = "cool_creator"
+bio = "Fun Blogger"
+followers = 100
+
+print("Username:", username)
+print("Bio:", bio)
+print("Followers:", followers)
+
+# Activity 3
+followers = 100
+followers += 50
+print("Day 1:", followers)
+followers += 20
+print("Day 2:", followers)
+followers -= 10
+print("Day 3:", followers)
+
+# Activity 4
+username = input("Enter Username: ")
+age = input("Enter Age: ")
+category = input("Enter Content Category: ")
+
+print("\nInstagram Profile")
+print("=================")
+print("Username:", username)
+print("Age:", age)
+print("Category:", category)
+
+
+============================================================
+COMMIT 5
+Activity 5 - Add Conditional Statement
+============================================================
+
+hello.py:
+
+# Activity 1
+print("================================")
+print("Welcome here")
+print("My first post!")
+print("================================")
+
+# Activity 2
+username = "cool_creator"
+bio = "Fun Blogger"
+followers = 100
+
+print("Username:", username)
+print("Bio:", bio)
+print("Followers:", followers)
+
+# Activity 3
+followers = 100
+followers += 50
+print("Day 1:", followers)
+followers += 20
+print("Day 2:", followers)
+followers -= 10
+print("Day 3:", followers)
+
+# Activity 4
+username = input("Enter Username: ")
+age = input("Enter Age: ")
+category = input("Enter Content Category: ")
+
+print("\nInstagram Profile")
+print("=================")
+print("Username:", username)
+print("Age:", age)
+print("Category:", category)
+
+# Activity 5
+username = input("Enter Username: ")
+age = int(input("Enter Age: "))
+category = input("Enter Content Category: ")
+
+print("\nInstagram Profile")
+print("=================")
+print("Username:", username)
+print("Age:", age)
+print("Category:", category)
+
+if age > 40 and category == "fun":
+    print("You are old what is fun for you??")
+
+
+============================================================
+GIT COMMIT COMMANDS
+============================================================
+
+git add hello.py
+git commit -m "Activity 1 - First Python Program"
+
+git add hello.py
+git commit -m "Activity 2 - Update Profile"
+
+git add hello.py
+git commit -m "Activity 3 - Follower Growth Tracker"
+
+git add hello.py
+git commit -m "Activity 4 - Interactive Profile Creator"
+
+git add hello.py
+git commit -m "Activity 5 - Add Conditional Statement"
