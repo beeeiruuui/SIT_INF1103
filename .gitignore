@@ -1,0 +1,6 @@
+*.pdf
+*.docx
+
+# Screenshots (case-insensitive match not supported by git, so list common cases)
+*[Ss]creenshot*
+*[Ss]creen [Ss]hot*
