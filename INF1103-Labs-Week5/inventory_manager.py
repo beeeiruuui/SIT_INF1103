@@ -1,6 +1,6 @@
 import json
 
-Inventory_File = "INF1103-Labs-Week5/inventory.json"
+Inventory_File = "inventory.json"
 
 def _read_inventory():
     with open(Inventory_File, "a+") as f:
