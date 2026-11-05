@@ -1,0 +1,34 @@
+[
+    {
+        "id": "P001",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 15,
+        "type": "physical",
+        "weight": 2.5
+    },
+    {
+        "id": "P002",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 50,
+        "type": "physical",
+        "weight": 0.1
+    },
+    {
+        "id": "D001",
+        "name": "E-Book: Python Basics",
+        "price": 15.0,
+        "stock": 100,
+        "type": "digital",
+        "download_size": 5.2
+    },
+    {
+        "id": "D002",
+        "name": "Operating System ISO",
+        "price": 99.99,
+        "stock": 30,
+        "type": "digital",
+        "download_size": 4500.0
+    }
+]
