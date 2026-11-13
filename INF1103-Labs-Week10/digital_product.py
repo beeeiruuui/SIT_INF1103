@@ -1,0 +1,42 @@
+from product import Product
+from supplier import Supplier
+
+
+class DigitalProduct(Product):
+    # Evidence of type hints
+    def __init__(
+        self,
+        product_id: str,
+        name: str,
+        price: float,
+        stock: int,
+        supplier: Supplier,
+        download_size: float,
+    ):
+        super().__init__(product_id, name, price, stock, supplier)
+        self.__download_size = download_size
+
+    def get_download_size(self) -> float:
+        return self.__download_size
+
+    def display_information(self) -> None:
+        super().display_information()
+        detail = f"Download: {self.__download_size:>8.2f} MB"
+        print(f"{'Digital':<{Product.TYPE_WIDTH}} {detail} N/A")
+
+    # Evidence Physical/DigitalProduct work polymorphically
+    def get_fulfilment_info(self) -> str:
+        return "This product is delivered digitally via a download link."
+
+    def to_dict(self) -> dict:
+        data = super().to_dict()
+        data["type"] = "digital"
+        data["download_size"] = self.__download_size
+        return data
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "DigitalProduct":
+        supplier = Supplier.from_dict(data["supplier"])
+        return cls(
+            data["id"], data["name"], data["price"], data["stock"], supplier, data["download_size"]
+        )
